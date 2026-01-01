@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: "http://localhost:5173", // endereço do seu front
+  origin: "https://cadastro-de-users.onrender.com",
   methods: ["GET", "POST", "DELETE"], // métodos que você quer liberar
   allowedHeaders: ["Content-Type", "Authorization"], // cabeçalhos permitidos
 }));
